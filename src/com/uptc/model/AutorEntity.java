@@ -1,18 +1,15 @@
 package com.uptc.model;
 
-<<<<<<< HEAD
-=======
 import java.util.ArrayList;
 import java.util.List;
 
->>>>>>> 948fe23 (1/9/23 Sin el for)
+
 public class AutorEntity {
 
     private Long id;
     private String nombre;
     private String correo;
-<<<<<<< HEAD
-=======
+
     private List<MenssageEntity> messageEntity;
     public AutorEntity(){
         System.out.println("Se creo un nuevo autor");
@@ -50,5 +47,5 @@ public class AutorEntity {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
->>>>>>> 948fe23 (1/9/23 Sin el for)
+
 }
