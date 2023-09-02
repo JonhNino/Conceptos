@@ -12,7 +12,7 @@ public class MenssageEntity {
     private AutorEntity autorEntity;
 
     public AutorEntity getAutorEntity() {
-        return autorEntity;
+         return autorEntity;
     }
 
     public void setAutorEntity(AutorEntity autorEntity) {
