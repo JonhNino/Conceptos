@@ -6,7 +6,7 @@ public class Main {
         AutorEntity autorEntity = new AutorEntity();
         autorEntity.setId(123L);
         autorEntity.setNombre("Jonh Niño");
-        System.out.println(autorEntity.getId());
+        System.out.println(autorEntity.getId()) ;
 
         MenssageEntity menssageEntity = new MenssageEntity();
         menssageEntity.setAutorEntity(autorEntity);
