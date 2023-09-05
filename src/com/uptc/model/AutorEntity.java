@@ -1,9 +1,11 @@
 package com.uptc.model;
 
+import com.uptc.decorator.Entity;
+
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Entity(table = "AUTHOR")
 public class AutorEntity {
 
     private Long id;
@@ -48,4 +50,13 @@ public class AutorEntity {
         this.correo = correo;
     }
 
+    @Override
+    public String toString() {
+        return "AutorEntity{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", correo='" + correo + '\'' +
+                ", mensajes=" + mensajes +
+                '}';
+    }
 }

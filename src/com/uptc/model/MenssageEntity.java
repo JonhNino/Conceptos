@@ -1,8 +1,11 @@
 package com.uptc.model;
 
+import com.uptc.decorator.Entity;
+
 import java.util.Date;
 import java.util.List;
 
+@Entity(table ="MESSAGE")
 public class MenssageEntity {
     private Long id;
     private Integer num;
