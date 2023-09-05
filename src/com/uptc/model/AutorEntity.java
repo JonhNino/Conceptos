@@ -10,18 +10,18 @@ public class AutorEntity {
     private String nombre;
     private String correo;
 
-    private List<MenssageEntity> messageEntity;
+    private List<MenssageEntity> mensajes;
+
     public AutorEntity(){
-        System.out.println("Se creo un nuevo autor");
-        messageEntity=new ArrayList<>();
+        System.out.println("Se creo Autor");
+        mensajes= new ArrayList<>();
+    }
+    public List<MenssageEntity> getMensajes() {
+        return mensajes;
     }
 
-    public List<MenssageEntity> getMessageEntity() {
-        return messageEntity;
-    }
-
-    public void setMessageEntity(List<MenssageEntity> messageEntity) {
-        this.messageEntity = messageEntity;
+    public void setMensajes(List<MenssageEntity> mensajes) {
+        this.mensajes = mensajes;
     }
 
     public Long getId() {

@@ -9,14 +9,14 @@ public class MenssageEntity {
     private String texto;
     private Date fecha;
 
-    private AutorEntity autorEntity;
+    private AutorEntity autor;
 
-    public AutorEntity getAutorEntity() {
-         return autorEntity;
+    public AutorEntity getAutor() {
+        return autor;
     }
 
-    public void setAutorEntity(AutorEntity autorEntity) {
-        this.autorEntity = autorEntity;
+    public void setAutor(AutorEntity autor) {
+        this.autor = autor;
     }
 
     public Long getId() {
